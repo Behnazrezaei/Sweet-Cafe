@@ -111,8 +111,8 @@ opacity: 50%;
     border-style:groove;
     border-radius: 5px;
 }
-.ui-about{
-    display: inline;
-    position: relative;
-    top:10px;
+.span-about{
+    display: flex;
+    flex-direction:column ;
+    gap:20px;
 }
