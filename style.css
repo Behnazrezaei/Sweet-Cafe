@@ -116,4 +116,13 @@ opacity: 50%;
     flex-direction:column ;
     gap:20px;
 }
-span
+.footer-txt{
+    color: #301616;
+    font-size: medium;
+}
+li{
+    display: inline;
+    color: #412812;
+    font-size: medium;
+    text-align: center;
+}
