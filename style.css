@@ -50,7 +50,7 @@ opacity: 50%;
 }
 .pic-menu1{
     position:absolute;
-    right: 60px;
+    right: 10px;
     border-radius: 5px;
     text-align:center;
     list-style-type: none;
@@ -95,6 +95,9 @@ opacity: 50%;
     border-radius: 10px;
 
 }
+.about{
+    position:relative;
+}
 .sqiued{
     position:absolute;
     left: 850px;
@@ -121,8 +124,10 @@ opacity: 50%;
     font-size: medium;
 }
 li{
-    display: inline;
-    color: #412812;
-    font-size: medium;
-    text-align: center;
+    display: flex;
+    flex-direction:column;
+    align-content: first baseline;
+    color: #170b01;
+    font-size:medium;
+    text-align:start;
 }
